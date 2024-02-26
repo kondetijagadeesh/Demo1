@@ -9,7 +9,7 @@ begin
 	   set @sql = @sql+' and ename ='+''''+@ename+''''
 	end
 exec(@sqL)
-
+print(@sql)
 
 end
 
